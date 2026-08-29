@@ -1,0 +1,10 @@
+{
+  "quick": true,
+  "n_samples": 8,
+  "n_settings_per_prior": 2,
+  "seconds": 15.25246787071228,
+  "device": "cuda",
+  "seeds": [
+    42
+  ]
+}

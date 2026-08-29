@@ -1,0 +1,6 @@
+# Override with env SECONDLOOK_DATA (absolute path to the data/ folder).
+data_root: "data"
+processed_dir: "data/processed/g02202_v5_2014_2020_7to7"
+direct_unet_prior: "outputs/direct_unet/test_predictions_direct_unet.npz"
+env_name: "cryodiff-gpu"
+outputs_root: "outputs"

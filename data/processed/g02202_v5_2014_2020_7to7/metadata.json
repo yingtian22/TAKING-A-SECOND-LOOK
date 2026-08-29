@@ -1,0 +1,19 @@
+{
+  "dataset": "NOAA/NSIDC G02202 V5",
+  "region": "north",
+  "variable": "cdr_seaice_conc",
+  "input_len": 7,
+  "pred_len": 7,
+  "height": 448,
+  "width": 304,
+  "mask_path": "data/masks/g02202_v5/ocean_mask.npy",
+  "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020],
+  "splits": {
+    "train": "data/processed/g02202_v5_2014_2020_7to7/train.npz",
+    "val": "data/processed/g02202_v5_2014_2020_7to7/val.npz",
+    "test": "data/processed/g02202_v5_2014_2020_7to7/test.npz"
+  },
+  "num_samples": {"train": 1819, "val": 365, "test": 360},
+  "split_mode": "year",
+  "note": "Place train.npz / val.npz / test.npz here. Do not commit the NPZ files."
+}

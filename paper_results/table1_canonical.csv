@@ -1,0 +1,10 @@
+Method,RMSE,MAE,Edge_RMSE,MIZ_RMSE,SIE_error,Aggregation
+Original Forecast Prior,0.081614,0.017531,0.155678,0.283021,0.007334,single frozen run
+Residual Interpolation,0.071722,0.020649,0.139213,0.243908,0.005044,single frozen run
+Nudging,0.069505,0.019108,0.134985,0.239360,0.005624,single frozen run
+Fixed Propagation,0.068966,0.018503,0.134627,0.240431,0.005239,single frozen run
+Localized OI,0.068249,0.017937,0.133511,0.238410,0.005413,single frozen run
+EnKF-PertObs,0.079885,0.019342,0.153117,0.272264,0.006751,single frozen run
+Adapted 4DVarNet,0.069087,0.026450,0.135814,0.226615,0.007329,single frozen run
+ECHO-Scale,0.067350,0.017355,0.132092,0.237321,0.004986,3 training seeds 42/43/44 mean
+ECHO-Delta,0.062487,0.013089,0.124771,0.230847,0.003384,3 training seeds 42/43/44 mean
